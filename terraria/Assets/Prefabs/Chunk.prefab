@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000013005597254}
+  m_IsPrefabParent: 1
+--- !u!1 &1000013005597254
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011042087830}
+  - 114: {fileID: 114000011803576256}
+  m_Layer: 0
+  m_Name: Chunk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011042087830
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013005597254}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000011803576256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013005597254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9263a717add6e234bb52c81869b16c5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DirtBlock: {fileID: 1000012880679886, guid: e1d315ae85f0e534cb0acf93dda06758, type: 2}
+  StoneBlock: {fileID: 1000012377419856, guid: 28bd2fbe26352bf4a9c6d900e7338754, type: 2}
+  GrassBlock: {fileID: 1000013852482142, guid: 9dc3857965281234c8b3da6a18aaf897, type: 2}
+  treeBottom: {fileID: 1000014133300750, guid: 2006b08cf3e29f44db0ae839f432ef07, type: 2}
+  treeBlock: {fileID: 1000012253965994, guid: 33b101755c538f644935f9c485d56f3c, type: 2}
+  krosnjaBlock: {fileID: 1000010246481966, guid: 76a3985ee8430d843884c35823189d09,
+    type: 2}
+  width: 25
+  heightMultiplier: 15
+  heightAddition: 70
+  smoothness: 20
+  seed: 0
+  blockCoal: {fileID: 1000010027928592, guid: 171afdc19abd31e4da8c648f9ac89de4, type: 2}
+  blockGold: {fileID: 1000011187006762, guid: 2259df2ca1e3f87448fb5caceec8fbaa, type: 2}
+  blockIron: {fileID: 1000013359537128, guid: 62066da93c25b3543aa5fa6366b4b9bc, type: 2}
+  chanceCoal: 0.2
+  chanceGold: 0.075
+  chanceIron: 1
